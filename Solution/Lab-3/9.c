@@ -1,20 +1,19 @@
-// 10. Write a program to calculate exp(x,y) (using recursion).
+// 9. Write a program to calculate GCD of given two numbers (using recursion).
 
 #include <stdio.h>
 
-int exp(int x, int y)
+int gcd(int a, int b)
 {
-    if (y == 0)
-        return 1;
-    return x * exp(x, y - 1);
+    if (b == 0)
+        return a;
+    return gcd(b, a%b);
 }
-
 
 int main()
 {
-    int x, y;
+    int a, b;
     printf("Enter two numbers: ");
-    scanf("%d %d", &x, &y);
-    printf("%d to the power %d is %d\n", x, y, exp(x, y));
+    scanf("%d %d", &a, &b);
+    printf("GCD of %d and %d is %d\n", a, b, gcd(a, b));
     return 0;
 }

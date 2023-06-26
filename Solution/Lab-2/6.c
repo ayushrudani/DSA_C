@@ -1,16 +1,16 @@
-// 7. Write a program to find factors of a given number.
+// 6. Write a program to find power of a number using loop.
 
 #include <stdio.h>
 
 int main()
 {
-    int n, i;
+    int n, p, i, pow = 1;
     printf("Enter a number: ");
     scanf("%d", &n);
-    printf("Factors of %d are: ", n);
-    for (i = 1; i <= n; i++)
-        if (n % i == 0)
-            printf("%d ", i);
-    printf("\n");
+    printf("Enter power: ");
+    scanf("%d", &p);
+    for (i = 1; i <= p; i++)
+        pow *= n;
+    printf("%d to the power %d is %d\n", n, p, pow);
     return 0;
 }

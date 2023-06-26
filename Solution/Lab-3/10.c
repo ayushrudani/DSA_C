@@ -1,23 +1,20 @@
-// 11. Write a program to print Fibonacci series (using recursion).
+// 10. Write a program to calculate exp(x,y) (using recursion).
 
 #include <stdio.h>
 
-int fib(int n)
+int exp(int x, int y)
 {
-    if (n == 0 || n == 1)
-        return n;
-    return fib(n - 1) + fib(n - 2);
+    if (y == 0)
+        return 1;
+    return x * exp(x, y - 1);
 }
+
 
 int main()
 {
-    int n;
-    printf("Enter a number: ");
-    scanf("%d", &n);
-    printf("Fibonacci series upto %d terms is:\n", n);
-    for (int i = 0; i < n; i++)
-    {
-        printf("%d ", fib(i));
-    }
+    int x, y;
+    printf("Enter two numbers: ");
+    scanf("%d %d", &x, &y);
+    printf("%d to the power %d is %d\n", x, y, exp(x, y));
     return 0;
 }
