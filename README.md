@@ -54,8 +54,7 @@
     ii. Pop
     iii. Peep
     iv. Change
-26. Take a stack of size 3 and performing following operations. Show the position of
-stack at each step:
+26. Take a stack of size 3 and performing following operations. Show the position of stack at each step:
     i. Push 1
     ii. Push 2
     iii. Push 3
@@ -74,14 +73,12 @@ stack at each step:
 ```
 [Solution For Lab 8](https://github.com/ayushrudani/DSA_C/tree/main/Solution/Lab-8)
 ```
-28. Show the process of reversing the list of given numbers {12, 34, 78, 23, 90, 67}
-using stack.
+28. Show the process of reversing the list of given numbers {12, 34, 78, 23, 90, 67} using stack.
 29. Write a program to reverse the list of given numbers using stack.
 ```
 [Solution For Lab 9](https://github.com/ayushrudani/DSA_C/tree/main/Solution/Lab-9)
 ```
-30. Write an algorithm to convert an infix expression into its equivalent postfix
-expression.
+30. Write an algorithm to convert an infix expression into its equivalent postfix expression.
 31. Convert the following infix expressions into postfix expressions:
     i. ( A + B * C / D - E + F / G / ( H + I ))
     ii. ( A + B ) * C + D / ( B + A * C ) + D
@@ -93,8 +90,7 @@ expression.
 [Solution For Lab 10](https://github.com/ayushrudani/DSA_C/tree/main/Solution/Lab-10)
 ```
 34. Write an algorithm to evaluate given postfix expression.
-35. Evaluate the following expressions showing every status of stack in tabular
-form:
+35. Evaluate the following expressions showing every status of stack in tabular form:
     i. 5, 4, 6, +, *, 4, 9, 3, /, +, *
     ii. 7, 5, 2, +, *, 4, 1, 1, +, /, -
 36. Write an algorithm to evaluate given prefix expression.
