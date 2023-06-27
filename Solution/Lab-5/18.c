@@ -1,0 +1,1 @@
+// 18. Write a program to delete a number from a given location in an array.
