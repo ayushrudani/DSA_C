@@ -13,17 +13,14 @@ int main()
     {
         scanf("%d", &arr[i]);
     }
-    printf("Enter the position of the number to be deleted: ");
+    printf("Enter the position of the number to be insert: ");
     scanf("%d", &pos);
-    for(i=pos-1; i<n-1; i++)
+    printf("Enter the value of number: ");
+    scanf("%d",&arr[pos]);
+
+    for(int i = 0 ; i < n ; i++)
     {
-        arr[i] = arr[i+1];
+        printf("%d ",arr[i]);
     }
-    n--;
-    printf("The array after deletion is: ");
-    for(i=0; i<n; i++)
-    {
-        printf("%d ", arr[i]);
-    }
-    return 0;
+    
 }
