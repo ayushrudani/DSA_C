@@ -4,7 +4,7 @@
 
 int main()
 {
-    int n, i, pos, num;
+    int n, i, pos;
     printf("Enter the number of elements: ");
     scanf("%d", &n);
     int arr[n];
@@ -20,6 +20,7 @@ int main()
         arr[i] = arr[i+1];
     }
     n--;
+    printf("The array after deletion is: ");
     for(int i = 0 ; i < n ; i++)
     {
         printf("%d ",arr[i]);
