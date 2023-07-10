@@ -7,7 +7,7 @@ int main()
     int a[10][10], b[10][10], c[10][10], i, j, k, r1, c1, r2, c2, sum = 0;
 
     printf("Enter the number of rows and columns of first matrix: ");
-    scanf("%d %d", &r1, &c1);
+    scanf("%d %d", &r1, &c1);  
 
     printf("Enter the number of rows and columns of second matrix: ");
     scanf("%d %d", &r2, &c2);

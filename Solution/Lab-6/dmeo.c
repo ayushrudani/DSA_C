@@ -42,13 +42,16 @@ int main()
         // }
         c[0][0] = 0;
         // int temp = 1;
-        for(int x=0,y=0,z=0;x<r1;z++){
-            if(z==c1){
+        for(int x=0,y=0,z=0;x<r1;z++)
+        {
+            if(z==c1)
+            {
                 z=0;
                 y++;
                 c[x][y] = 0;
             }
-            if(y==c2){
+            if(y==c2)
+            {
                 y=0;
                 x++;
                 c[x][y] = 0;
