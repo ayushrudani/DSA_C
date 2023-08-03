@@ -69,7 +69,7 @@ void display(){
     else{
         printf("Elements : \n");
         for(int i = top ; i >= 0 ; i--){
-            printf("%d ",stack[if]);
+            printf("%d ",stack[i]);
         }
         printf("\n");
     }

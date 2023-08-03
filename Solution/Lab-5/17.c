@@ -20,8 +20,7 @@ int main()
     for(i = pos; i < n; i++)
     {
         arr[i+1] = arr[i];
-    }
-    arr[pos] = num;
+    }    arr[pos] = num;
     n++;
     printf("The array after insertion is: ");
     for(i=0; i<n; i++)

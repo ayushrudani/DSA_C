@@ -21,10 +21,11 @@ int main(){
     int n;
     printf("Enter the size of the array: ");
     scanf("%d", &n);
-    int arr[n];
+    int temp;
     printf("Enter the elements of the array: ");
     for(int i=0; i<n; i++){
-        scanf("%d", &arr[i]);
+        scanf("%d", &temp);
+        push(temp);
     }
 
     // push the elements of the array to the stack.

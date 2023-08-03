@@ -29,13 +29,20 @@ int main(){
     push(90);
     push(67);
 
+    67
+    90
+    23
+    78
+    34
+    12
+
     // Printing the elements of the stack.
     // Stack use LIFO (Last In First Out) method.
     // When we pop the elements from the stack then the last element which is added to the stack will be poped first.
     // And bydefault the top element of the stack is the last element which is added to the stack.
     printf("The elements of the stack are: ");
-    for(int i=top; i>=0; i--){
-        printf("%d ", stack[i]);
+    for(int i=0; i < 6; i++){
+        printf("%d ", pop());
     }
     printf("\n");
 }

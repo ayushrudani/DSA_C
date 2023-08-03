@@ -13,7 +13,7 @@ int main()
     scanf("%d %d", &r2, &c2);
 
     if(c1 != r2)
-    {
+    {   
         printf("The matrices cannot be multiplied with each other.\n");
     }
     else
