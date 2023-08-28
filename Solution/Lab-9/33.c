@@ -23,11 +23,13 @@ int main()
 
 	push('(');
 	char next = input[i];
+	i++;
 
 	while (next != '\0'){
 		while (G(stack[top]) > F(next)){
 			char temp = pop();
-			output[k++] = temp;
+			output[k] = temp;
+			k++;
 		}
 
 		if (G(stack[top]) != F(next)){
@@ -35,11 +37,10 @@ int main()
 		}else{
 			pop();
 		}
-		// display();
-
-		next = input[++i];
+		next = input[i];
+		i++;
 	}
-	output[i] = '\0';
+	output[k] = '\0';
 
 	printf("%s",output);
 }
